@@ -40,10 +40,6 @@ def _callback(message, channel):
 	#sending back a response
 	respmsg = {"resp" : respstring }
 	pubnub.publish(pubnubChannelName, respmsg)
-
-	
-
-
 	 
 def _error(message):
     #print(message)

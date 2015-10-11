@@ -124,7 +124,8 @@ header img {
 		flex-direction: row-reverse;
 	}
 	.pref-container {
-		width: 480px;
+		width: 400px;
+		margin: 0 auto;
 	}
 	.temp-hum-display {
 		flex-grow: 1;
@@ -151,7 +152,8 @@ header img {
 }
 @media (min-width: 1024px) {
 	.pref-container {
-		width: 600px;
+		width: 400px;
+		position: relative;
 	}
 	.temp, .hum {      
 		font-size: 160px;
@@ -163,7 +165,7 @@ header img {
 .pubnub {
     width: 80px;
     height: 25px;
-    opacity: 0.9;
+    opacity: 0.3;
     background: url(../media/pubnub.png) 0 0 no-repeat;
     background-size: 100%;
     position: relative;
@@ -177,8 +179,8 @@ header img {
 }
 .preference {
 	margin-bottom: 2em;
-	border: 1px solid rgba(192, 192, 192, 0.15);
-	border-radius: 8px;
+	border: 7px solid rgba(192, 192, 192, 0.15);
+	border-radius: 10px;
 	min-height: 90px;
 	font-size: 1rem;
 }
